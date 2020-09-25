@@ -5,3 +5,15 @@ header {
     font-size: 15px;
     color: goldenrod;
 }
+.navigation {
+    float: left;
+    width: 10%;
+    height: 500px;
+    background-color: lightgray;
+    padding: 20px
+    
+}
+nav ul {
+    list-style: none;
+   padding: 0;
+}
