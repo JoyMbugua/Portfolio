@@ -1,15 +1,7 @@
-body {
-       color: #2c3e50;
-}
-nav ul {
-    list-style: none;
-    display: inline-block;
-}
 header {
-    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 100%;
-}
-.AboutMe {
-    background-color: lightsalmon;
+    padding: 50px;
+    border: 2px solid #d14638;
+    
 }
