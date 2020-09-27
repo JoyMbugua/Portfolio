@@ -36,3 +36,9 @@ h2 {
     padding: 10px;
    
 }
+h3 {
+    color: white;
+}
+ul {
+    list-style: none;
+}
