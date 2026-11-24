@@ -6,7 +6,7 @@ const CONFIG={
   email:'joymbugua123@gmail.com'
 };
 const GH='https://github.com/JoyMbugua';
-/* Address of your live WordPress landing page. Set it to '' to show "Coming soon" instead. */
+/* Address of your live WordPress landing page.*/
 const WP_URL='https://joy-mbugua.infinityfreeapp.com/';
 const PROJECTS=[
   {name:'Her Story',kind:'Tribute landing page',tag:'Live project',art:'track',one:'A responsive landing page about my favourite Olympic champion.',blurb:'A fully functional, responsive information landing page about my favourite Olympic champion, Tara Davis-Woodhall. Built with HTML, CSS and JavaScript and brought to life with GSAP animation.',stack:['HTML','CSS','JavaScript','GSAP'],stats:[['Responsive','Every screen size'],['GSAP','Animation'],['Live','On GitHub Pages']],live:'https://joymbugua.github.io/TARA-DAVIS-WOODHALL-HER-STORY/',repo:GH},
