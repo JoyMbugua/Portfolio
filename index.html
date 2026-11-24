@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joy Mbugua Portfolio</title>
+<meta name="description" content="Joy Mbugua is a front-end developer with two years of experience building fast, accessible, animated websites with HTML5, CSS3, JavaScript and GSAP.">
+<meta name="theme-color" content="#0aa5a0">
+<meta property="og:title" content="Joy Mbugua | Front-end developer">
+<meta property="og:description" content="Fast, accessible, animated websites. HTML5, CSS3, JavaScript, GSAP and WordPress.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},2800)</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joy Mbugua","jobTitle":"Front-end developer","sameAs":["https://github.com/JoyMbugua"],"knowsAbout":["HTML5","CSS3","JavaScript","GSAP","WordPress","Figma","SEO","Web accessibility"]}</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+<div id="bar"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="curRing" aria-hidden="true"></div><div id="curDot" aria-hidden="true"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<header class="nav">
+  <a class="brand" href="#top"><i></i>Joy Mbugua</a>
+  <nav aria-label="Sections"><ul>
+    <li><a class="l" href="#work">Work</a></li>
+    <li><a class="l" href="#pit">Skills</a></li>
+    <li><a class="l" href="#about">About</a></li>
+    <li><a class="l" href="#tune">Tune</a></li>
+    <li><a class="l" href="#hello">Hello</a></li>
+  </ul></nav>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Introduction" style="scroll-margin-top:0">
+  <div class="wrap">
+    <p class="kick mono"><span>Portfolio 2026</span><span>Front-end developer</span><span>2 years experience</span></p>
+    <h1 class="sr">Joy Mbugua</h1>
+    <div class="stage"><canvas id="heroCv" aria-hidden="true"></canvas></div>
+    <div class="intro">
+      <div class="txt">
+        <p class="say">I build <span class="w" id="word"><span class="wd on">pixel-accurate pages</span><span class="wd" aria-hidden="true">GSAP animations</span><span class="wd" aria-hidden="true">responsive layouts</span><span class="wd" aria-hidden="true">accessible front ends</span><span class="wd" aria-hidden="true">fast websites</span></span> that react back.</p>
+        <p class="lede" style="margin-top:1rem">Front-end developer with two years of experience. I turn designs into fast, accessible, animated websites.</p>
+        <div class="cta">
+          <a class="btn" href="#work" data-magnet>See the work</a>
+          <a class="btn ghost" href="#hello" data-magnet>Say hello</a>
+        </div>
+      </div>
+      <figure class="portrait" id="portrait">
+        <div class="frame" id="frame">
+          <span class="arch" aria-hidden="true"></span>
+          <span class="ph"><img id="phImg" src="assets/joy.webp" alt="Portrait of Joy Mbugua" width="900" height="824"></span>
+          <div class="badge" id="badge" aria-hidden="true">
+            <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="99"/><defs><path id="rp" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs><text textLength="440" lengthAdjust="spacing"><textPath href="#rp">FRONT-END DEVELOPER • HTML CSS JS • GSAP • </textPath></text><text class="in" x="100" y="112" text-anchor="middle">JM</text></svg>
+          </div>
+        </div>
+        <figcaption class="mono">Joy Mbugua, front-end developer</figcaption>
+      </figure>
+    </div>
+    <dl class="hud mono" aria-label="Live readout">
+      <div><dt>Your time</dt><dd id="hTime">--:--:--</dd></div>
+      <div><dt>Window</dt><dd id="hWin">-</dd></div>
+      <div><dt>Pointer</dt><dd id="hPtr">-</dd></div>
+      <div><dt>Scrolled</dt><dd id="hScr">0%</dd></div>
+    </dl>
+    <p class="mono" style="margin-top:1rem;opacity:.75">Poke the name. Click it. Drag through it.</p>
+  </div>
+</section>
+
+<div class="mq" data-dir="l" aria-hidden="true"><div class="mq-track"><div class="mq-seq"><span>Interfaces</span><i></i><span>Systems</span><i></i><span>Motion</span><i></i><span>Tools</span><i></i><span>Toys</span><i></i></div></div></div>
+<div class="mq alt" data-dir="r" aria-hidden="true"><div class="mq-track"><div class="mq-seq"><span>Scroll to change my speed</span><i></i><span>Faster</span><i></i><span>Slower</span><i></i><span>Backwards</span><i></i></div></div></div>
+
+<section id="work" aria-labelledby="workH">
+  <div class="wrap">
+    <div class="sec-h"><span class="eyebrow mono">01 / Work</span><h2 id="workH">What I build</h2></div>
+    <p class="lede" style="margin-bottom:clamp(1.2rem,3vw,3rem)">Three projects and three ways I can help. Hover a card and it comes alive, open one for the details and links.</p>
+    <div class="grid" id="grid"></div>
+    <p class="mono" style="margin-top:1.5rem"><a href="https://github.com/JoyMbugua">More on my GitHub ↗</a></p>
+  </div>
+</section>
+
+<section id="pit" aria-labelledby="pitH" style="background:color-mix(in srgb,var(--deep) 30%,transparent)">
+  <div class="wrap">
+    <div class="sec-h"><span class="eyebrow mono">02 / Skills</span><h2 id="pitH">The skill pit</h2></div>
+    <p class="lede" style="margin-bottom:clamp(1.2rem,3vw,3rem)">Twelve tools and skills I use to turn designs into working sites. Grab them, throw them, flip gravity.</p>
+    <div class="pit" id="pitBox"><canvas id="pitCv" role="img" aria-label="Physics playground of skill balls: HTML, CSS, JavaScript, GSAP, Git, Figma, WordPress, Photoshop, Illustrator, SEO, Accessibility, Speed"></canvas></div>
+    <div class="pit-bar">
+      <button class="btn ghost" id="gBtn" type="button">Gravity: down</button>
+      <button class="btn ghost" id="shake" type="button">Shake</button>
+      <button class="btn ghost" id="drop" type="button">Drop again</button>
+      <p id="readout" aria-live="polite">Grab one. Throw it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="aboutH">
+  <div class="wrap">
+    <div class="sec-h"><span class="eyebrow mono">03 / About</span><h2 id="aboutH">About me</h2></div>
+    <div class="two">
+      <div>
+        <p class="lede">I am Joy, a front-end developer with two years of experience. I build high-performance websites with HTML5, CSS3 and JavaScript (ES6+), and I love adding engaging animation with GSAP. I am currently expanding into React.js.</p>
+        <p class="lede" style="margin-top:1rem">I focus on clean, accessible code, pixel-accurate builds of designs and smooth experiences across devices and browsers. This page is hand-written and tested from a 200 px phone to a 3000 px display.</p>
+        <ul class="tags" style="margin-top:1.5rem"><li>Responsive design</li><li>Mobile-first</li><li>Web animation</li><li>Cross-browser</li><li>Accessibility (WCAG)</li><li>Web performance</li><li>SEO basics</li><li>Git and GitHub</li></ul>
+        <div class="stats-row">
+          <div><div class="big" data-to="2">2</div><span class="mono">Years experience</span></div>
+          <div><div class="big" data-to="2">2</div><span class="mono">Live projects</span></div>
+          <div><div class="big" data-to="200">200</div><span class="mono">Smallest px tested</span></div>
+        </div>
+      </div>
+      <ul class="tl" id="tl"></ul>
+    </div>
+  </div>
+</section>
+
+<section id="tune" aria-labelledby="tuneH" style="background:color-mix(in srgb,var(--deep) 30%,transparent)">
+  <div class="wrap">
+    <div class="sec-h"><span class="eyebrow mono">04 / Tune</span><h2 id="tuneH">Re-colour the page</h2></div>
+    <div class="tune">
+      <div class="knob" id="knob" role="slider" tabindex="0" aria-label="Page hue" aria-valuemin="0" aria-valuemax="360" aria-valuenow="148">
+        <span class="disc"></span><span class="knob-out" id="hueOut">178°</span>
+      </div>
+      <div>
+        <p class="lede">Turn the dial through the colour spectrum, then on into white and black. Every colour on this site, including the particles and the physics balls, follows it.</p>
+        <div class="chips" id="chips">
+          <button class="chip" type="button" data-h="178">Teal</button>
+          <button class="chip" type="button" data-h="228">Cobalt</button>
+          <button class="chip" type="button" data-h="350">Cherry</button>
+          <button class="chip" type="button" data-h="24">Tangerine</button>
+          <button class="chip" type="button" data-h="262">Violet</button>
+          <button class="chip" type="button" data-tone="white">White</button>
+          <button class="chip" type="button" data-tone="black">Black</button>
+        </div>
+        <div class="chips">
+          <button class="chip" id="disco" type="button" aria-pressed="false">Auto-cycle</button>
+          <button class="chip" id="calm" type="button" aria-pressed="false">Calm mode</button>
+        </div>
+        <div class="sw" aria-hidden="true"><span style="background:var(--bg)"></span><span style="background:var(--panel)"></span><span style="background:var(--acc)"></span><span style="background:var(--acc2)"></span><span style="background:var(--ink)"></span></div>
+        <p class="mono" style="margin-top:1rem;opacity:.7">Calm mode turns off cursor effects, tilt and motion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hello" aria-labelledby="helloH">
+  <div class="wrap">
+    <div class="sec-h"><span class="eyebrow mono">05 / Hello</span></div>
+    <h2 class="mag" id="helloH">Say hi.</h2>
+    <div class="compose">
+      <form id="form" autocomplete="off">
+        <div class="field"><label class="mono" for="fName">Your name</label><input id="fName" type="text" placeholder="Ada"></div>
+        <div class="field"><label class="mono" for="fMsg">What are you building?</label><textarea id="fMsg" rows="5" placeholder="A website for my business, or a WordPress site that needs a front-end touch..."></textarea></div>
+        <button class="btn" id="copyBtn" type="submit" data-magnet>Copy as email draft</button>
+        <p class="status" id="status" aria-live="polite"></p>
+      </form>
+      <div>
+        <label class="mono" for="draft" style="display:block;margin-bottom:.3rem">Live draft</label>
+        <textarea class="draft" id="draft" readonly></textarea>
+        <ul class="links">
+          <li><a href="https://github.com/JoyMbugua">GitHub</a></li>
+          <li><a href="https://joymbugua.github.io/TARA-DAVIS-WOODHALLHER-STORY/">Her Story</a></li>
+          <li><a href="https://joymbugua.github.io/JoyMbuguaWeatherProject/">Weather App</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <div class="row mono"><span>Joy Mbugua, 2026</span><span id="fTime">On this page: 0s</span><a href="#top">Back to top</a></div>
+  <p class="mono" style="opacity:.7">Hand-built with HTML, CSS and JS. Try the Konami code.</p>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="sheet">
+    <button class="x" id="mClose" type="button">Close</button>
+    <div class="m-art"><canvas id="mCv" aria-hidden="true"></canvas></div>
+    <div class="m-body">
+      <p class="eyebrow mono" id="mKind"></p>
+      <h3 id="mTitle"></h3>
+      <p id="mBlurb"></p>
+      <ul class="tags" id="mTags"></ul>
+      <dl class="stats" id="mStats"></dl>
+      <div class="m-links" id="mLinks"></div>
+      <div class="m-nav">
+        <button class="btn ghost" id="mPrev" type="button">Previous</button>
+        <button class="btn" id="mNext" type="button">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="padding:1rem">This portfolio is interactive and needs JavaScript. Joy Mbugua is a front-end developer with two years of experience.</p></noscript>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="js/data.js"></script>
+<script defer src="js/main.js"></script>
+</body>
+</html>
